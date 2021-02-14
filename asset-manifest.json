@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4629603e.chunk.css",
+    "main.js": "/static/js/main.02487564.chunk.js",
+    "main.js.map": "/static/js/main.02487564.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.09a9e4c5.js",
+    "runtime-main.js.map": "/static/js/runtime-main.09a9e4c5.js.map",
+    "static/js/2.1984cc9e.chunk.js": "/static/js/2.1984cc9e.chunk.js",
+    "static/js/2.1984cc9e.chunk.js.map": "/static/js/2.1984cc9e.chunk.js.map",
+    "static/js/3.7314dc6b.chunk.js": "/static/js/3.7314dc6b.chunk.js",
+    "static/js/3.7314dc6b.chunk.js.map": "/static/js/3.7314dc6b.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.4629603e.chunk.css.map": "/static/css/main.4629603e.chunk.css.map",
+    "static/js/2.1984cc9e.chunk.js.LICENSE.txt": "/static/js/2.1984cc9e.chunk.js.LICENSE.txt",
+    "static/media/searchItem.css": "/static/media/OpenSans-SemiBold.a16d8201.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.09a9e4c5.js",
+    "static/js/2.1984cc9e.chunk.js",
+    "static/css/main.4629603e.chunk.css",
+    "static/js/main.02487564.chunk.js"
+  ]
+}
