@@ -1,0 +1,11 @@
+.leftBar{
+    width: 4.167vw;
+    display: flex;
+    flex-direction: column;
+    padding: 1vw;
+    box-shadow: 2px 0px 10px rgba(23, 49, 69, 0.15);
+}
+.leftBar img {
+    margin-bottom: 2.04vw;
+    cursor: pointer;
+}
