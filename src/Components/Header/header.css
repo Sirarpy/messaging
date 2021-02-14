@@ -1,0 +1,77 @@
+@font-face {
+    font-family: "Open SansReg";
+    src: url("../../fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: "OpenSansLight";
+    src: url("../../fonts/OpenSans-Light.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: .9vw;
+    font-family: "OpenSansLight";
+    font-style: normal;
+    font-weight: normal;
+    color: #173145;
+}
+
+header {
+    border: 1px solid #E5EFF6;
+
+}
+
+header.messaging, header .headerItems,
+.headerItems .rightHeaderItems {
+    display: flex;
+}
+
+header .headerItems,
+.headerItems .rightHeaderItems {
+    align-items: center;
+
+}
+
+header.messaging div.logo {
+    width: 4.167vw;
+}
+
+header.messaging div.logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.headerItems {
+    width: calc(100vw - 4.167vw);
+}
+
+.headerItems h1 {
+    font-size: 1.67vw;
+    line-height: 2.29vw;
+    letter-spacing: .1vw;
+}
+
+header .headerItems {
+    justify-content: space-between;
+    padding: 0 2.083vw;
+}
+
+.rightHeaderItems > img {
+    margin-left: 1.43vw;
+}
+
+.rightHeaderItems img.activeUserAvatar {
+    width: 2.77vw;
+    border-radius: 50%;
+}
+
+.rightHeaderItems img.notif {
+    width: 1.25vw;
+}

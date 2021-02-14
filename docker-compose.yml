@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  alanturingschool:
+    image: alanturingschool
+    build:
+      context: .
+      dockerfile: ./Dockerfile

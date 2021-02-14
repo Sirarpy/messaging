@@ -1,6 +1,6 @@
 // import { FaRegCalendar, FaGraduationCap} from "react-icons/all";
-import cap from '../../images/cap.png'
-import calendar from '../../images/calend.png'
+import cap from '../../../images/cap.png'
+import calendar from '../../../images/calend.png'
 import './LeftBar.css'
 
 const LeftBar = ()=>{
@@ -8,8 +8,6 @@ const LeftBar = ()=>{
         <div className='leftBar'>
             <img src={cap} alt="cap"/>
             <img src={calendar} alt="calendar"/>
-           {/*<FaRegCalendar/>*/}
-           {/*<FaGraduationCap/>*/}
         </div>
     )
 }

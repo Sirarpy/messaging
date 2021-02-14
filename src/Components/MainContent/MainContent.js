@@ -1,9 +1,9 @@
 import LeftBar from "./LeftBar/LeftBar";
 import RightContentMess from "./RightContentMess/RightContentMess";
 
-const MessageContent = () => {
+const MainContent = () => {
     return (
-        <main className='mainMessage' style={{display: "flex", backgroundColor: "#F9FBFE"}}>
+        <main className='mainMessage' style={{display: "flex"}}>
             <LeftBar/>
             <RightContentMess/>
         </main>
@@ -11,4 +11,4 @@ const MessageContent = () => {
 
     )
 }
-export default MessageContent;
+export default MainContent;
