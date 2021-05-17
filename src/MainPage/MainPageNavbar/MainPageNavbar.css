@@ -1,0 +1,18 @@
+.MainContent{
+    position: absolute;
+    top: 5rem;
+    left: 5rem;
+    right: 0;
+    bottom: 0;
+    background: #F7FAFD;
+    padding: 2rem;
+    background-image: url('./messagebg.jpg');
+    height: fit-content;
+    background-size: cover;
+    height: 100%;
+
+}
+.MainContent h1{
+    text-align: center;
+    margin-top: 20px;
+}

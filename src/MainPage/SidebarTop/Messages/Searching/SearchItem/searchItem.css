@@ -1,0 +1,58 @@
+@font-face {
+    font-family: "Open SansReg";
+    src: url("../../fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: "OpenSansLight";
+    src: url("../../fonts/OpenSans-Light.ttf");
+}
+@font-face {
+    font-family: "OpenSemiBold";
+    src: url("../../fonts/OpenSans-SemiBold.ttf");
+}
+.searchItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /*justify-content: space-between;*/
+    border-bottom: 1px solid #E5EFF6;
+    padding: 0.83vw 0;
+
+     /* background-color: #ffffffe6;
+    margin-bottom: 5px; */
+
+}
+.searchItem p{
+    cursor: pointer;
+    font-size: 0.97vw;
+    line-height: 1.38vw;
+    font-family: "OpenSemiBold";
+
+}
+.searchItem .searchItemAvatar {
+    width: 3.61vw;
+    height: 3.61vw;
+    border: 1px solid #E5EFF6;
+    object-fit: contain;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 1.11vw;
+
+}
+.searchItem .searchItemAvatar img{
+    width: 100%;
+}
+.searchItem p.searchItemStatus{
+    color: #A5BBCB;
+    font-size: 0.83vw;
+    line-height: 1.11vw;
+    font-family: "Open SansReg";
+}
+.searchItem span, h4{
+    background: #F15151;
+    float: right;
+    color: #fff;
+    padding: 0.15vw 0.5vw;
+    border-radius: 50%;
+}
